@@ -74,6 +74,7 @@ const Header = () => {
                                                     <ul className="dropdown">
                                                         <li><Link to="tt">404 Error</Link></li>
                                                         <li><Link to="/AllDepartments">Dasboard</Link></li>
+                                                        <li><Link to="/login">Login</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
