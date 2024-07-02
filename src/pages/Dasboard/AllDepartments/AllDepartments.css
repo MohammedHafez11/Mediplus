@@ -1,0 +1,43 @@
+body{
+    overflow-x: hidden;
+}
+.table-container {
+    margin: 20px 0;
+    border-collapse: collapse;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.table-container::-webkit-scrollbar{
+    background-color: white;
+    border-radius: 2px;
+    width: 2px;
+}
+.table-container::-webkit-scrollbar-thumb{
+    background-color: #34c3ff;
+    border-radius: 2px;
+    width: 2px;
+}
+.table-container th, .table-container td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 5px solid #fff4f4;
+}
+
+.table-container th {
+    background-color: #ffffff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.table-container tr:hover {
+    background-color: #fffafa;
+}
+
+.table-container th, .table-container td {
+    transition: all 0.3s ease;
+}
+
+.table-container th:hover, .table-container td:hover {
+    background-color: #e2e2e2;
+}
+
+
