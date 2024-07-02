@@ -68,14 +68,6 @@ const Header = () => {
                                                     </ul>
                                                 </li>
                                               
-                                                <li>
-                                                    <a href="#" style={{display: "flex", alignItems: "center"}}>Pages <i><ArrowBigDown /></i></a>
-                                                    <ul className="dropdown">
-                                                        <li><Link to="tt">404 Error</Link></li>
-                                                        <li><Link to="/AllDepartments">Dasboard</Link></li>
-                                                        <li><Link to="/login">Login</Link></li>
-                                                    </ul>
-                                                </li>
                                                 <li><Link to="/blogs">Blogs</Link></li>
                                                 <li><Link to="/Contact">Contact Us</Link></li>
                                             </ul>
